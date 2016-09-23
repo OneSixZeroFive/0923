@@ -21,8 +21,8 @@
 .comwidth{width: 1190px;border: 1px solid #c9c9c9;}
 
 
-#plist li{height: 150px;}
-#plist li div{height: 150px;}
+#plist li{height:100%；;}
+
 #cnxh{width: 1190px;height: 397px;margin: auto;margin-top: 20px;}
 #cnxh ul{width: 1190px;height: 375px;border: 1px solid #dbdfdf;}
 .cc{width: 1180px;height: 15px;padding: 0 5px;margin-bottom: 10px; color: #444;}
