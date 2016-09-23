@@ -1,0 +1,67 @@
+
+#gwc{height: 100%;}
+.gwc_my{width: 1190px;height: 74px;margin: auto;margin-top: 10px;min-width: 600px;}
+.gwcimg{float: left;}
+.my_gg{float: left;font-size: 16px;line-height: 74px;color: #333;}
+.my_gg i{padding: 0 15px;color: #c9c9c9;font-weight: bold;}
+.gwc_ff{width: 400px;float: left;}
+.gwc_fb{right:0;top:0;text-align:center;float: right;}
+.gwc_yc{width:530px;height: 30px;margin-top: 25px;}
+.gwc_li1{width:130px;left:0;padding:0;float: left;}
+
+
+.gwc_for{width: 1190px; height: 150px; border: 1px solid #444;}
+
+#shop{width: 1190px;height: 172px;min-width: 600px;margin: auto;margin-top: 20px;}
+.shp{width: 1180px;height: 10px;padding: 0 5px; margin-bottom: 10px; color: #444;}
+.shp_sapn{float: right;}
+.shp_sapn a{color: red;}
+.shp_sapn a:hover{text-decoration: underline;}
+
+.comwidth{width: 1190px;border: 1px solid #c9c9c9;}
+
+
+#plist li{height: 150px;}
+#plist li div{height: 150px;}
+#cnxh{width: 1190px;height: 397px;margin: auto;margin-top: 20px;}
+#cnxh ul{width: 1190px;height: 375px;border: 1px solid #dbdfdf;}
+.cc{width: 1180px;height: 15px;padding: 0 5px;margin-bottom: 10px; color: #444;}
+.cc_li{width: 230px;height: 355px;padding: 10px 0;margin-left: 5px;}
+
+.cc_li img{width: 230px;height: 230px;}
+.cc_sp1{font-size: 12px; color: #444;margin-left:5px; }
+.cc_sp2{color: #e91456;font-size: 13px;margin-left:5px; }
+
+.cc_li button{width: 101px;height: 32px;padding: 0 12px;margin: 15px 0 0 75px;border: 0;background-color: #eee;}
+.cc_li button:hover{background-color: #dbdfdf;}
+
+
+
+
+.shopcat{margin: 0 auto; width: 1190px;min-height: 150px;}
+.shopcat .cookie-li{overflow: hidden;float: left;white-space: normal;}
+.shopcat .cookie-li{display: block;float: left;width: 900px;height: 200px;margin: 10px 0px;}
+.shopcat .cookie-li img{vertical-align: middle;margin-left: 20px;}
+.shopcat .cookie-li h3{display: inline-block;vertical-align: middle;font-size: 18px;width: 200px;margin-right: 150px;}
+.shopcat .cookie-li span{font-size: 24px;margin-left: 80px;}
+
+.cookie-li{font-size: 20px;}
+                
+                /*等下回来修改这里的样式，太丑了*/
+.cookie-li h4{font-size: 24px;color: #FFF1DC;}
+.cookie-li span{color: red;}
+
+.shopcat .cookie-li a,.shopcat .cookie-li input{display: inline-block;color: #333; height: 16px;vertical-align: middle;line-height: 16px;}
+.shopcat .cookie-li input{width: 28px;margin: 0 5px;text-align: center;}
+.shopcat .cookie-li .del{border: none;font-size: 12px;margin-left: 20px;}
+
+
+
+
+
+
+
+
+
+
+

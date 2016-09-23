@@ -1,0 +1,90 @@
+#index{width: 100%;height: 100%;}
+
+#lunbo{width: 100%;height: 480px;margin:auto;}
+#lunbo img{height: 480px;}
+#content{width: 1190px; height: 382px;margin:auto;}
+.tab-content p{float: left;}
+.tab-content >p img{width: 180px;height: 330px;}
+.tab-content .tab-pane{float: left;}
+.tab-pane .link{width: 230px;height: 320px;}
+.tab-pane img{width: 228px;height: 228px;}
+
+.xiala{ width: 170px; height: 480px; background: #000; position: relative;left: 37px;top: -480px;}
+.xiala ul a{font-family: '微软雅黑';font-size: 14px;color: #fff;text-decoration: none;}
+.xiala ul a:hover{color: #000;text-decoration: none;}
+.xiala ul li{height: auto; line-height: 35px;text-align: center;position: relative;}
+.xiala ul li:hover{background: #c1c1c1;}
+.xiala ul{width: 170px;height: auto;position: absolute;list-style: none;}
+.xiala ul .nav2{left: 170px;top: 0;display: none;}
+.xiala .nav1 .li1:hover ul.nav2{display: block;background: #c1c1c1;width: 400px;height: 480px;position: absolute;top: -72px;}
+.ul2 li{float: left; width: auto;}
+.xiala ul.nav3{left: 170px;top: 0;display: none;}
+.xiala .nav1 .li1:hover ul.nav3{display: block;background: #c1c1c1;width: 400px;height: 480px;position: fixed;top: -85px;}
+
+.amazonmenu ul li {position: static; }
+.amazonmenu > ul {background: #000;width: 170px;height: 480px;position: relative;}
+.amazonmenu > ul li a {color: #fff;display: block;overflow: auto;padding: 10px 0;position: relative;text-decoration: none;}
+
+.amazonmenu ul li > div, .amazonmenu ul li > ul {background: white;display: none;font-weight: normal;width: 400px;height: 480px;left: 100%;padding: 10px;position: absolute;top: 0;}
+.amazonmenu ul li > div li a, .amazonmenu ul li > ul li a{color: #000;}
+
+
+
+
+.zb{width: 180px; height: 480px;background-color: #fff;position: relative;left: 1040px;top: -980px;}
+.foot h3{text-align: center; padding-top: 20px;}
+.foot span{margin-left: 50px;color: red;}
+.foot p{text-align: center; font-size: 24px;}
+.foot p a{color: #000;}
+
+.foor{position: relative;left: 35px; top: 70px; height: 50px; width: 48px;}
+.foor h3{color: red;border-top: 1px solid #999;padding-top: 15px;}
+
+
+/*content*/
+
+
+.link{ width: 230px;height: 330px; margin-left:15px;float: left;}
+.link li > span{ color: red;margin-left: 55px;}
+.link_ine span{color: #fff;display: block; padding-top: 5px; width: 30px;height: 36px; background-image:url(../img/miaosha.png)}
+.link_list a:hover{color: red;}
+.link_list p a{color: #000;}
+.link_list >p{color: red;}
+
+#rebo{width: 1190px; height: 400px;margin: auto; }
+#rebo .p1{width: 200px;height: 53px;font-size: 18px;line-height: 53px;}
+.con1{float: left;}
+.con1 img{width: 190px;height: 330px;}
+.con2{float: left;}
+.con2_ul li{width: 230px;height: 330px;margin-left: 5px;border: 1px solid #efefef}
+.con2_ul li{float: left;}
+.con2_li a:hover{color: red;}
+.con2_ul li img{width: 228px;height: 228px;}
+.con2_li{padding-top:20px; height: 100px;}
+.con2_li p a{font-size: 12px;color: #000;}
+.con2_li p{color: red;font-size: 12px;}
+.con2_li .ph{margin-left: 120px; }
+
+.costume{width: 1190px; height: 576px;margin:auto;min-width: 900px; }
+.costume a:hover{color: red;}
+.fz_ul{width: 360px;height: 51px;margin-bottom: 0;}
+.fz_ul li{float: left;margin-right: 15px; line-height: 51px;}
+.fz_ul li a{color: #000;font-size: 24px;}
+
+.cost1{width: 190px;height: 520px;float: left;}
+.cost1_cos1{width: 190px;height: 130px;background-color: #f7e7e7;}
+.cost1_cos2 img{width: 190px;height: 390px;}
+.cost1_cos1 ul li{margin-left: 10px;width: 175px;height: 40px;line-height: 40px;font-size: 12px;}
+.cost1_cos1 ul li a{color: #000;float: left;width: 33%;}
+.cost2{float: left;width: 1000px;height: 520px;}
+.cost2_1{width: 385px;height: 520px;float: left;}
+.cost2_1 img{width: 395px;height: 520px;}
+.cost2_2{width: 190px;height: 520px;float: left; margin-left:15px; }
+.sos1{width: 190px;height: 260px;}
+.sos1_1 img{width: 190px;height: 167px;}
+.sos1_2{margin-top:15px; }
+.sos1_2 a{color: #000;font-size: 14px;}
+.sos1_2 p{color: red;}
+.cost2_3{float: left;width: 177px;height: 260px;margin-left:20px;}
+.cost2_4{float: left;margin-left:20px;width: 177px;height: 260px;}
+#bottom a:hover{color: red;}}

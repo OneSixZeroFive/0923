@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/commenu.css">
+    <link rel="stylesheet" href="../css/gwc.css">
+    <link rel="stylesheet" href="../css/commenu.css">
+    <script src="../js/mycookie.js"></script>
+    <script src="../js/jQuery-1.12.0.js"></script>
+    <style>
+.list_li{border: 1px solid #dfdfdf;}
+    </style>
+    <script>
+$(function(){
+    var $ul = $(".list_ul");
+    var $Li = $ul.find("li");
+    $Li.on("mouseover",function(){
+           $Li.addClass("list_li");
+    });
+    $Li.on("mouseout",function(){
+           $Li.removeClass("list_li");
+    })
+
+})
+
+
+
+
+var str = '[{product:"\u516C\u4E3B\u9774\u5B50", price:"RMB138"}, {product:"\u8776\u5986\u6D77\u84DD\u6E05\u6EE2\u7C89\u5E95\u6DB210", price:"RMB85"}]';
+
+
+
+onload = function() {
+    var oUl = document.getElementById("plist");
+    var str = getCookie("arr");
+    var arr = eval(str);
+    for (var i = 0; i < arr.length; i++)
+    {   // 创建一个商品
+        var oLi = document.createElement("li");
+        // 取出数组中元素，arr[i] 是一个对象,
+        //    再取出这个对象中的产品名 和 价格
+        oLi.innerHTML = arr[i].simg+arr[i].title + ", " + arr[i].discount;
+
+        oUl.appendChild(oLi);
+    }
+}
+
+
+
+    </script>
+</head>
+<body>
+<div id="gwc">
+    <div id="box">
+        <div class="bot">
+            <p class="p1"><img src="../img/ind-tel.png">电话热线<span>400-630-0077</span></p>
+            <p class="p2"><a href="denglu.html">[登陆]</a> <a href="zhuce.html">[免费注册]</a></p>
+        </div>
+        <ul class="box_ul">
+            <li><a href="#">我的嘉</a></li>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">客户服务</a></li>
+            <li><a href="#">电视会员激活</a></li>
+            <li class="sj"><a href="#"><img src="../img/ind-mobile.png">手机嘉丽购</a></li>
+        </ul>
+    </div>
+    <div class="gwc_my">
+        <div class="gwc_ff">
+            <a href=""><img src="../img/ladygood.png" alt="" class="gwcimg"></a>
+            <div class="my_gg"><i>|</i>购物车</div>       
+        </div>
+        <div class="gwc_fb">
+            <ul class="gwc_yc">
+                <li class="gwc_li1">
+                    <img src="../img/tp.jpg" alt=""><br>
+                    <span class="f-ib f-width">我的购物车</span>
+                </li>
+                <li class="gwc_li1">
+                    <img src="../img/tp2.jpg" alt=""><br>
+                    <span class="f-ib f-width">提交订单</span>
+                </li>
+                <li class="gwc_li1">
+                    <img src="../img/tp2.jpg" alt=""><br>
+                    <span class="f-ib f-width">等待付款</span>
+                </li>
+                <li class="gwc_li1">
+                    <img src="../img/tp2.jpg" alt=""><br>
+                    <span class="f-ib f-width">支付成功</span>
+                </li>                        
+                <div style="clear:both;"></div>
+                </ul>
+            </div>
+    </div>
+    <div id="shop">
+        <div class="shp">
+            <span>全部商品</span>
+            <span class="shp_sapn"><a href="../index.html">返回首页</a></span>
+        </div>
+        <form action="" class="ff_for">
+            <div class="ff_di">
+                <div class="gwc_for">
+
+                    <ul id="plist">       
+                    </ul> 
+
+                </div>
+            </div>
+        </form>
+    </div> 
+    <div id="cnxh">
+        <div class="cc">猜你喜欢</div>
+        <ul class="list_ul">
+            <li class="cc_li lli">
+                <a href="xiangqing.html"><img src="../img/f.jpg" alt=""></a>
+                <span class="cc_sp1">生活日记多功能电煮锅1+1惊爆组</span><br><br>
+                <span class="cc_sp2">¥199.00</span><br>
+                <a href="xiangqing.html"><button>加入购物车</button></a>
+            </li>
+        </ul>
+    </div>
+
+ <!-- bottom -->
+ <div class="bb"></div>
+<div id="bottom">
+    <div class="botn1">
+        <img src="../img/foot_info.jpg">
+    </div>
+    <div class="botn2">
+        <div class="butt1">
+            <img src="../img/ewm.png" alt="">
+        </div>
+        <div class="butt2">
+            <div class="fhlist list">
+                <strong>购物指南</strong>
+                <li><a href="">新用户注册/激活</a></li>
+                <li><a href="">如何订购</a></li>
+                <li><a href="">常见问题</a></li>
+            </div>
+            <div class="fhlist">
+                <strong>会员中心</strong>
+                <li><a href="">会员权益</a></li>
+                <li><a href="">美丽积分</a></li>
+                <li><a href="">订单查询</a></li>   
+                <li><a href="">找回密码</a></li>             
+            </div>
+            <div class="fhlist">
+                <strong>配送服务</strong>
+                <li><a href="">物流跟踪</a></li>
+                <li><a href="">免运费政策</a></li>            
+            </div>
+            <div class="fhlist">
+                <strong>支付说明</strong>
+                <li><a href="">货到付款</a></li>
+                <li><a href="">在线支付</a></li>             
+            </div>
+            <div class="fhlist">
+                <strong>售后服务</strong>
+                <li><a href="">退换政策</a></li>
+                <li><a href="">退换货流程</a></li>
+                <li><a href="">安全与保密</a></li>                
+            </div>
+        </div>
+        <div class="butt3">
+            <img src="../img/baidukefu.png" alt="">
+            <p><span>400-630-0077</span><br> 网站专线</p>
+        </div>
+    </div> 
+    <div class="botn3">
+        <ul>
+            <li><a href="">商城首页</a></li>
+            <li><a href="">官网首页</a></li>
+            <li><a href="">供应商登录</a></li>
+            <li><a href="">供货联系</a></li>
+            <li><a href="">收藏我们</a></li>
+            <li><a href="">公司简介</a></li>
+            <li><a href="">媒体报道</a></li>
+            <li><a href="">嘉丽购招聘</a></li>
+            <li><a href="">官方微博</a></li>
+            <li><a href="" style="border:0">合作网站：范游网</a></li>
+        </ul>
+        <div class="btn_1">
+            <p>嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved</p>
+            <p> 国家广电总局批号：广局[2010] 278号<a href="" style="color:#999">湘ICP备10203162号-3</a></p>
+            <p style="line-height:18px">
+                <script>
+                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256092567'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256092567%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+            </p>
+        </div>
+        <div class="btn_2">
+            <p>
+                <img src="../img/kx.jpg" alt="">
+                <a href=""><img src="../img/360.jpg" alt=""></a>
+                <img src="../img/alipay_s.gif" alt="">
+                <a href=""><img src="../img/hn110_s.gif" alt=""></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</div>        
+</body>
+</html>

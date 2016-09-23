@@ -1,0 +1,64 @@
+#box{ margin:auto; height:30px;min-width: 950px; font-size: 12px;line-height: 30px;border-bottom: 1px solid #efefef;background:url(img/dhbj.jpg);}
+.bot{width:400px;height: 30px;float: left;}
+.bot p{ float: left;}
+.bot .p1{margin: 0 50px;}
+.bot .p1 img{margin-right: 5px; }
+.bot .p2 a{margin-right:5px; }
+#box img{vertical-align: middle;}
+.bot .p1 span{margin-left: 5px;color: red;font-family:"agency fb";}
+.box_ul{float: right;}
+.box_ul li{float: left;margin:0 10px;}
+.box_ul .sj{margin: 0 30px;}
+.box_ul .sj img{margin-right: 5px; }
+#box a{color:#000;}
+#box a:hover{color:red;text-decoration: underline;}
+
+#cont{width:1190px;height: 120px;border: 0;margin:auto;min-width: 900px;}
+.cont_1{width: 230px;float: left;margin: 10px 0;}
+.cont_2{width: 630px;height: 99px;float: left;}
+.cont_2 form{width: 381px;height: 30px;border: 1px solid red;position: relative;left: 50px;top: 35px;}
+.former p{margin:10px 5px;}
+.former p a{color: #999;}
+.former p a:hover,.cont_3 a:hover{color: red;text-decoration: underline;}
+.cont_2 input{width: 299px; height: 28px;border: none;color: #999999;outline:medium;}
+.cont_2 button{ width: 80px; font-size: 14px;height: 28px;color: #fff;font-weight: bold;background-color: #ee195a;border: 0;}
+.cont_3{width: 250px;float: left;position: relative;font-size: 12px;}
+.cont_3 a{width: 130px;height: 30px;line-height: 30px;position: absolute;top:45px;right:60px;padding: 0 20px;border: 1px solid #efefef;color: #000;}
+.cont_3 img{margin-right: 5px;}
+
+#cify{width: 1190px; height: 38px;margin:auto;min-width: 900px;}
+.hx{width: 100%;height: 2px;border-bottom: 2px solid red;}
+.cify_left{width: 170px;float: left;background-color: #ee195a;}
+.cify_left p{line-height: 30px;margin-left: 10px;font-size: 20px;font-weight: bold;color: #fff;}
+.cify_cont{width: 600px;float: left;margin-left: 15px;}
+.cify_cont ul li{float: left;line-height: 40px;font-family: simhei;font-size: 18px;font-weight: bold;display: block;}
+.cify_cont ul li a{color: #000;padding: 0 15px;border-right: 1px solid #999999;text-decoration: none;}
+.cify_cont ul li a:hover{color: #ee195a;}
+.cify_right{width: 300px;float: right;line-height: 30px;font-weight: bold;margin-right: 100px;}
+.cify_right p span{margin-left: 5px;color: #ee195a;}
+
+
+.bb{height:10px;margin:25px 0 5px 0;  border-top: 2px solid red;}
+#bottom{width: 1190px; height: 388px; margin:auto;margin-left:35px; }
+
+.botn1{margin-bottom: 25px;}
+.butt1{float: left;width: 160px;height: 135px;margin:25px 0 0 30px; }
+.botn2{height: 170px;}
+.butt2{float: left; width:720px;list-style-type: none; border-left: 1px solid #999;border-right: 1px solid #999;}
+.fhlist{float: left;width: 100px;height: 150px;margin: 5px 0 0 40px;}
+.list{margin-left:35px; }
+.fhlist li{margin: 15px 0; font-size: 12px;}
+.fhlist li a{color: #333;}
+.butt3{float: left; width:240px;height: 100px; margin:25px 0 0 30px; }
+.butt3 img{float: left;}
+.butt3 p{float: left;}
+.butt3 span{font-size: 18px;}
+
+.botn3{height: 150px;}
+.botn3 ul{height: 15px; margin-left:220px; }
+.botn3 ul li{ float: left;display: block;}
+.botn3 ul li a{ color: #333;border-right: 1px solid #666;padding: 0 5px;}
+
+.btn_1 p{text-align: center; font-size: 12px; color: #999;}
+.btn_2 p{text-align: center;}
+.btn_2 p img{margin: 0 5px;}

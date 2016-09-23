@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <link rel="stylesheet" href="../css/reset.css">    
+    <link rel="stylesheet" href="../css/commenu.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/zhuce.css"> 
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+<link href="../css/demo.css" type="text/css" rel="stylesheet" />    
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/Validform_v5.3.2_min.js"></script>
+<style>
+.Validform_checktip{margin:4px 0 0 92px;}
+.formsub label{display:inline-block; width:70px;}
+.action{padding-left:92px;}
+</style>
+<script type="text/javascript">
+$(function(){
+    //$(".registerform").Validform();  //就这一行代码！;
+        
+    $(".registerform").Validform({
+        tiptype:function(msg,o,cssctl){
+            //msg：提示信息;
+            //o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+            //cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+            if(!o.obj.is("form")){//验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+                var objtip=o.obj.siblings(".Validform_checktip");
+                cssctl(objtip,o.type);
+                objtip.text(msg);
+            }
+        }
+    });
+})
+</script>
+
+
+</head>
+<body>
+<div id="wary">
+  <div class="sy">
+      <div class="sy_yy">
+          <a href="../index.html"><img src="..\img\ladygood.png" alt=""></a>
+          <span class="fuck">欢迎注册</span>
+          <span class="witer">
+              <p>
+                  <i>已有账号</i>
+                  <a href="denglu.html">直接登录</a>
+              </p>
+          </span>
+      </div>
+  </div>  
+
+<div class="zc">
+
+<div class="main">
+    <div class="wraper">
+
+        <form class="registerform form_div" action="demo/ajax_post.php">
+            <div class="formsub">
+                <ul>
+                    <li>
+                        <label class="left_la"><span class="need">*</span> 用户名</label>
+                        <input type="text" placeholder="用户名" value="" name="name" class="inputxt" datatype="s6-18" ajaxurl="demo/valid.php" errormsg="昵称至少6个字符,最多18个字符！" />
+                        <div class="Validform_checktip">昵称为6~18个字符</div>
+                    </li>
+                    <li>
+                        <label class="left_la"><span class="need">*</span> 密码：</label>
+                        <input type="password" placeholder="密码" value="" name="userpassword" class="inputxt" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！" />
+                        <div class="Validform_checktip">密码范围在6~16位之间</div>
+                    </li>
+                    <li>
+                        <label class="left_la"><span class="need">*</span> 确认密码：</label>
+                        <input type="password" placeholder="确认密码" value="" name="userpassword2" class="inputxt" datatype="*" recheck="userpassword" nullmsg="请再输入一次密码！" errormsg="您两次输入的账号密码不一致！" />
+                        <div class="Validform_checktip">两次输入密码需一致</div>
+                    </li>
+                </ul>
+                <div class="action">
+                    <p>
+                        <input type="checkbox" name="auto_login" class="f-vam f-lst36" checked="checked">
+                        <span>我已阅读并同意《嘉丽购物网服务条款》</span>
+                    </p>
+                    <input type="submit" value="登录" class="input_denglu" />
+                    <div class="yxzc">
+                        您还可以选择<a href="">邮箱注册</a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </form>
+        
+         
+    </div>
+
+    <div class="tb">
+        <img src="../img/login-bg1.jpg" alt="">
+    </div>
+</div>
+
+<div class="bb"></div>
+    <div id="bottom">
+        <div class="botn1">
+            <img src="..\img\foot_info.jpg">
+        </div>
+        <div class="botn2">
+            <div class="butt1">
+                <img src="..\img\ewm.png" alt="">
+            </div>
+            <div class="butt2">
+                <div class="fhlist list">
+                    <strong>购物指南</strong>
+                    <li><a href="">新用户注册/激活</a></li>
+                    <li><a href="">如何订购</a></li>
+                    <li><a href="">常见问题</a></li>
+                </div>
+                <div class="fhlist">
+                    <strong>会员中心</strong>
+                    <li><a href="">会员权益</a></li>
+                    <li><a href="">美丽积分</a></li>
+                    <li><a href="">订单查询</a></li>   
+                    <li><a href="">找回密码</a></li>             
+                </div>
+                <div class="fhlist">
+                    <strong>配送服务</strong>
+                    <li><a href="">物流跟踪</a></li>
+                    <li><a href="">免运费政策</a></li>            
+                </div>
+                <div class="fhlist">
+                    <strong>支付说明</strong>
+                    <li><a href="">货到付款</a></li>
+                    <li><a href="">在线支付</a></li>             
+                </div>
+                <div class="fhlist">
+                    <strong>售后服务</strong>
+                    <li><a href="">退换政策</a></li>
+                    <li><a href="">退换货流程</a></li>
+                    <li><a href="">安全与保密</a></li>                
+                </div>
+            </div>
+            <div class="butt3">
+                <img src="..\img\baidukefu.png" alt="">
+                <p><span>400-630-0077</span><br> 网站专线</p>
+            </div>
+        </div> 
+        <div class="botn3">
+            <ul>
+                <li><a href="">商城首页</a></li>
+                <li><a href="">官网首页</a></li>
+                <li><a href="">供应商登录</a></li>
+                <li><a href="">供货联系</a></li>
+                <li><a href="">收藏我们</a></li>
+                <li><a href="">公司简介</a></li>
+                <li><a href="">媒体报道</a></li>
+                <li><a href="">嘉丽购招聘</a></li>
+                <li><a href="">官方微博</a></li>
+                <li><a href="" style="border:0">合作网站：范游网</a></li>
+            </ul>
+            <div class="btn_1">
+                <p>嘉丽购物有限责任公司 Copyright 2010-2014 jialigou.All Rights Reserved</p>
+                <p> 国家广电总局批号：广局[2010] 278号<a href="" style="color:#999">湘ICP备10203162号-3</a></p>
+                <p style="line-height:18px">
+                    <script>
+                        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256092567'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256092567%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                    </script>
+                </p>
+            </div>
+            <div class="btn_2">
+                <p>
+                    <img src="..\img\kx.jpg" alt="">
+                    <a href=""><img src="..\img\360.jpg" alt=""></a>
+                    <img src="..\img\alipay_s.gif" alt="">
+                    <a href=""><img src="..\img\hn110_s.gif" alt=""></a>
+                </p>
+            </div>
+        </div>
+    </div>  
+
+ </div>
+       
+</body>
+</html>
